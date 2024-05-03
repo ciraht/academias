@@ -1,0 +1,14 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+}
+
+.cabeçalho {
+    display: flex;
+}
+.nome {
+    font-size: 50px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    text-align: center;
+}
