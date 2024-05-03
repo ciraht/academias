@@ -1,4 +1,3 @@
-
 *{
     margin: 0;
     padding: 0;
@@ -10,6 +9,9 @@
     --preto: #1A222A;
     --laranjaclaro: #FA7F4B;
 }
+
+/* ---------------------------------------------------- */
+
 .cabeçalho {
     display: flex;
     background-color: var(--preto);
@@ -26,7 +28,7 @@
 .logo {
     margin-left: 10px;
     height: 150px;
-    width: 150px;
+    width: 170px;
     margin-top: 10px;
 }
 .caixa {
@@ -80,71 +82,49 @@
     background-color: var(--laranjaclaro);
     border-color: var(--laranjaclaro);
 }
-/*  fim do cabeçalho  */
 
-:root{
-    --cinza_fundo: rgb(71, 71, 71);
-    --cinza_frente: rgb(71, 71, 71);
-}
+/* ---------------------------------------------------- */
 
-.produtos{
-    height: 150px;
-    width: 150px;
-    border-radius: 10px 10px 10px 10px;
-}
 
-.fundo{
-    background-color: var(--cinza_fundo);
-}
 
-.titulo{
-    font-family: Impact;
-    color: white;
-    font-size: 80px;
-    text-align: center;
-    background-color: var(--cinza_frente);
-}
 
-.texto_grande{
-    font-family: Impact;
-    background-color: var(--cinza_frente);
-    color: white;
-    font-size: 40px;
-    letter-spacing: 2px;
-}
 
-.exposicao{
-    background-color: #1A222A;
-    height: 200px;
-    display: flex;
-    gap: 10px;
-}
 
-.imagem_grandona{
-    width: 100%;
-    height: 350px;
 
-}
 
-.quadro{
-    background-color: #363637;
-    width: 165px;
-    height: 180px;
-    text-align: center;
-    border-radius: 10px 10px 10px 10px;
-    box-shadow: #000000 8px 8px 8px;
-    
-}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* ---------------------------------------------------- */
 
 footer {
-    background-color: #1A222A;
+    background-color: var(--preto);
 }
 .mds_quanta_div  {
     display: flex;
     justify-content: center;   
 }
-footer .p {
+footer p {
     font-family: Arial, Helvetica, sans-serif;
-    color: white;
+    color: var(--branco);
     text-align: center;
 }
+/* ---------------------------------------------------- */
+
