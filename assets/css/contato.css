@@ -1,0 +1,191 @@
+:root {
+    --branco: white;
+    --laranja: #FC4C02;
+    --laranja2: #b43904;
+    --preto: #1A222A;
+    --laranjaclaro: #FA7F4B;
+    --cor-botao-pesquisar: rgb(252, 113, 53);
+    --cor-botao-pesquisar-segurado: rgb(193, 134, 108);
+    --cor-bloco: rgb(0, 0, 0);
+}
+
+.inicio {
+    background-color: var(--laranja2);
+    font-family: Impact;
+    color: white;
+    font-size: 25px;
+}
+.secao-pesquisar-unidades {
+    background-color: var(--laranjaclaro);
+    height: 840px;
+    margin: 0px;
+}
+.pesquisar-unidades {
+    text-align: left;
+    background-color: rgba(255,255,255,255);
+    margin-bottom: 0px;
+    margin-top: 12px;
+    border: 10px;
+    border-color: black;
+    padding-left: 30px;
+    padding-bottom: 10px;
+}
+.botao-pesquisa {
+    background-color: var(--cor-botao-pesquisar);
+    color: white;
+}
+.botao-pesquisa:hover {
+    background-color: var(--cor-botao-pesquisar-segurado);
+    color: black;
+}
+.lupa-pesquisa {
+    height: 23px;
+    width: 23px;
+}
+.bloco-unidade {
+    text-align: center;
+    background-color: var(--cor-bloco);
+    color: white;
+    border-radius: 10px 10px 10px 10px;
+    border-color: white;
+    border-style: solid;
+    border-width: 1px;
+    padding: 40px;
+    width: 280px;
+    height: 230px;
+    /* margin-left: 23em; */
+    box-shadow: 5px 5px rgba(0, 0, 0, 0.03);
+    font-size: 22px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    margin-right: 50px;
+    margin-left: 35%;
+}
+.subtitulo-bloco {
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+.conteudo-bloco {
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: lighter;
+}
+
+/* AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA */
+
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+}
+:root {
+    --branco: white;
+    --laranja: #FC4C02;
+    --preto: #1A222A;
+    --laranjaclaro: #FA7F4B;
+}
+
+/* ---------------------------------------------------- */
+
+.cabeçalho {
+    display: flex;
+    background-color: var(--preto);
+    height: 240px;
+}
+.nome {
+    font-size: 50px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    text-align: center;
+    margin-top: 60px;
+    margin-left: 40px;
+    color: var(--branco);
+}
+.logo {
+    margin-left: 10px;
+    height: 150px;
+    width: 170px;
+    margin-top: 10px;
+}
+.caixa {
+    display: flex;
+    flex-direction: column;
+    margin-left: 90px;
+    flex-wrap: wrap
+}
+.icones {
+    margin-top: 15px;
+    height: 50px;
+    width: 75px;
+}
+.linha {
+    margin-left: 25px;
+    height: 190px;
+}
+.naoaguentomaisdiv {
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+.coiso_dos_icone {
+    font-weight: bold;
+    color: var(--branco);
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 10px;
+}
+.cabecalho {
+    display: flex;
+    background-color: var(--preto);
+    height: 100px;
+    text-align: center;
+    justify-content: center;
+}
+.btn{
+    background-color: var(--laranja);
+    margin: 0 15px;
+    color: white;
+    font-size: 1em;
+    width: 130px;
+    height: 54px;
+    padding-top: 0px;
+    border-radius: 19px 19px 19px 19px;
+    border-color: var(--laranja);
+    font-family: Arial, Helvetica, sans-serif;
+    letter-spacing: 3px;
+}
+.btn:hover {
+    background-color: var(--laranjaclaro);
+    border-color: var(--laranjaclaro);
+}
+
+/* ---------------------------------------------------- */
+
+
+/* ---------------------------------------------------- */
+
+footer {
+    background-color: var(--preto);
+}
+.mds_quanta_div  {
+    display: flex;
+    justify-content: center;   
+}
+footer p {
+    font-family: Arial, Helvetica, sans-serif;
+    color: var(--branco);
+    text-align: center;
+}
+/* ---------------------------------------------------- */
+
+.pai-dos-blocos {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.pai-dos-blocos .bloco-unidade {
+    margin-left: 0;
+}
