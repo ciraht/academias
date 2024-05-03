@@ -1,0 +1,14 @@
+
+:root{
+    --cinza_fundo: rgb(96, 96, 96);
+}
+
+.produtos{
+    height: 50px;
+    width: 50px;
+    border-radius: 10px 10px 10px 10px;
+}
+
+.fundo{
+    background-color: var(--cinza_fundo);
+}
