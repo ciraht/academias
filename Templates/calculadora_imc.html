@@ -42,13 +42,15 @@
 
     <section class="secao-calculadora">
         <div class="div-ordenada">
-            <form action="/resultado" method="post"> <!-- Formulário para enviar o número e sexo para verificação -->
+            <form action="/resultado" method="post"> <!-- Formulário para enviar as coisas para verificação -->
                 <div>
-                    <label for="numero">Preencha os campos:</label> <!-- Rótulo do campo de entrada -->
+                    <label>Preencha os campos:</label> <!-- Rótulo do campo de entrada -->
                     <br>
-                    <input type="text" id= "sexo" name="sexo" placeholder='Insira seu sexo ("f" ou "m")' required>
+                    <input type="number" id = "idade" placeholder='Insira sua idade em anos' required>
                     <br>
-                    <input type="number" id="numero" name="numero" placeholder="Insira seu peso em kg" required> <!-- Campo de entrada para o número -->
+                    <input type="number" id = "numero" placeholder="Insira seu peso em kg" required>
+                    <br>
+                    <input type="number" id = "altura" placeholder="Insira sua altura em metros (exemplo: 1.74)" required>
                 </div>
                 <button type="submit" class="botao-envio">Verificar</button> <!-- Botão de envio do formulário -->
             </form>
