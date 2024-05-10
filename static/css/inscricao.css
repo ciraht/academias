@@ -86,7 +86,59 @@
 /* ---------------------------------------------------- */
 
 
+.fundao{
+    background-color: #1A222A;
+}
 
+.titulo{
+    color: white;
+    text-align: center;
+    font-family: Impact;
+    font-size: 80px;
+    letter-spacing: 5px;
+}
+
+.imagem{
+    width: 100%;
+    height: 100%;
+}
+
+.fundo{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.quadro{
+    width: 300px;
+    height: 350px;
+    background-color: #FA7F4B;
+    border-radius: 10px 10px 10px 10px;
+    box-shadow: black 2px 2px 2px;
+}
+
+.titulozin{
+    color: white;
+    text-shadow: #e46834 1px 1px 1px;
+    text-align: center;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 35px;
+    letter-spacing: 1px;
+}
+
+.quadro p{
+    color: white;
+    font-family: Arial;
+    text-align: center;
+    text-shadow: #e46834 1px 1px 1px;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+.valor{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bold;
+    font-size: 35px;
+}
 
 
 
