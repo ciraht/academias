@@ -48,17 +48,22 @@
                     <br>
                     <input type="number" id = "idade" placeholder='Insira sua idade em anos' required>
                     <br>
-                    <input type="number" id = "numero" placeholder="Insira seu peso em kg" required>
+                    <input type="number" id = "peso" step="0.010" placeholder="Peso (kg) (ex.: 64.5)" required>
                     <br>
-                    <input type="number" id = "altura" placeholder="Insira sua altura em metros (exemplo: 1.74)" required>
+                    <input type="number" id = "altura" step="0.010" placeholder="Altura (m) (ex.: 1.74)" required>
                 </div>
                 <button type="submit" class="botao-envio">Verificar</button> <!-- Botão de envio do formulário -->
             </form>
-            <div id="resultado" class="resultado">
+            <div class="resultado">
                 <h3 style="padding-top: 15px;">Resultado:</h3>
-                <div class="exibir-resultado">
+                <div class="exibir-resultado" id="resultado">
                     {% if resultado %} <!-- Verifica se há um resultado a ser exibido -->
-                        {{ resultado }} <p>Kg</p><!-- Exibe o resultado da verificação -->
+                        {{ resultado }} <!-- Exibe o resultado da verificação -->
+                    {% endif %}
+                </div>
+                <div class="exibir-resultado" id="comentario"> <!-- Comentário -->
+                    {% if comentario %}
+                        {{ comentario }}
                     {% endif %}
                 </div>
             </div>
