@@ -2,9 +2,9 @@ from flask import Flask, render_template, request
 
 app = Flask(__name__)
 
-@app.route('/calculadora_imc.html')
+@app.route('/Templates/calculadora_imc.html')
 def calculadora():
-    return render_template('calculadora_imc.html',resultado="Seu resultado aparecerá aqui", comentario="Uma mensagem aparecerá aqui")
+    return render_template('calculadora_imc.html',resultado="Seu resultado aparecerá aqui.", comentario="Uma mensagem aparecerá aqui.")
 
 @app.route('/resultado',methods=['POST'])
 def resultado():
