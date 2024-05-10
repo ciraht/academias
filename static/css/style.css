@@ -133,7 +133,52 @@ h2 {
     margin-left: 10px;
     font-family: Arial, Helvetica, sans-serif;
     color: var(--preto);
+    font-weight: 500;
 }
+.uau {
+    height: 400px;
+    border: 1px solid var(--preto);
+    transition-duration: 1s;
+    animation-timing-function: ease-in-out;
+    flex-grow: 1;
+    background-size: cover;
+    background-position: center center;
+}
+.div1 {
+    background-image: url(../img/musculacao.png);
+    flex-grow: 1;
+}
+.div2 {
+    background-image: url(../img/ginastica.png);
+}
+.div3 {
+    background-image: url(../img/ioga.png);
+}
+.div4 {
+    background-image: url(../img/crossfit.png);
+}
+.div5 {
+    background-image: url(../img/produtos.png);
+}
+.uau:hover{
+    flex-grow: 7;
+}
+.teste {
+    display: flex;
+    height: 400px;
+    width: 700px;
+    margin: 0 auto;
+}
+.nomes{
+    color: var(--laranja);
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 1000;
+    margin-left: 10px;
+    font-size: 30px;
+}
+
+
+
 /* ---------------------------------------------------- */
 
 footer {
